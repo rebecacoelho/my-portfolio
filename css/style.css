@@ -45,7 +45,7 @@ a {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 82px;
   line-height: 100%;
 }
 
@@ -870,8 +870,31 @@ body {
   padding: 16px 24px;
 }
 
+.links-getInTouch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding-bottom: 2rem;
+}
+
+.external-link {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 18px;
+}
+
 @media screen and (max-width: 740px) {
   .get h3 {
-    font-size: 24px;
+    font-size: 20px;
+  }
+  .links-getInTouch {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 425px) {
+  .container-item:nth-child(2) img {
+    max-width: 200px;
   }
 }/*# sourceMappingURL=style.css.map */
